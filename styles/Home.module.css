@@ -1,0 +1,188 @@
+
+.container {
+  min-height: 85vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nonhomeContainer {
+  background-color: rgba(255, 248, 237, 0.296);
+  min-height: 85vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resumeTitle {
+  margin: 0 0 40rem;
+  line-height: 1.15;
+  font-size: 3.6rem;
+  color: rgb(196, 192, 187);
+}
+.resumeTitle:hover {
+  color: rgba(53, 50, 45, 0.506);
+}
+
+.title {
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-size: 3.6rem;
+  color: rgb(196, 192, 187);
+}
+.title:hover {
+  color: rgb(255, 255, 255);
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.tab {
+  text-align: right;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 10vh;
+  background-color: rgb(231, 225, 215);
+  border-bottom: 1px solid rgb(153, 150, 144);
+}
+
+.navContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: rgb(25, 25, 25);
+}
+
+.menuIcon {
+  cursor: pointer;
+  display: none; /* Hidden by default, shown on smaller screens */
+}
+
+.menuIcon img {
+  width: auto;
+  height: auto;
+}
+
+.menuItems {
+  display: flex;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: black;
+}
+.menuItemsVisible {
+  line-height: 1.5;
+  font-size: 1rem;
+  color: black;
+}
+
+.showMenu {
+  display: none; /* Shown when menu is toggled */
+  flex-direction: column;
+  width: 100vw; /* Full viewport width */
+  height: 85.1vh; /* Adjust to the desired height */
+  background-color: rgb(231, 225, 215);
+  font-size: 1.5rem;
+  position:absolute;
+  top: 10vh; /* Adjust this value to create the gap at the top */
+  left: 0; /* Align to the left of the viewport */
+  z-index: 1000; /* Ensure it is above other elements */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.navButton {
+  padding: 1.3rem;
+  padding-bottom: 1.4rem;
+  width: auto;
+  height: 50px;
+  color: rgb(120, 118, 115);
+}
+.navButton:hover {
+  color: rgb(83, 81, 77);
+}
+
+
+@media (max-width: 915px) {
+  .menuItems {
+    display: none; /* Hidden by default on smaller screens */
+  }
+
+  .showMenu {
+    display: flex;
+  }
+
+  .navButton {
+    display:static;
+  }
+
+  .menuItemsVisible {
+    display: flex;
+    font-size: 1.1rem;
+    flex-direction: column;
+    padding: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+  .menuIcon {
+    display: block; /* Shown on smaller screens */
+    height: 50px;
+    width: 50px;
+    padding-bottom: 6px;
+  }
+}
+
+.logo {
+  padding-left: 2rem;
+  padding-top: 6px;
+  font-weight: bold;
+  color: rgb(20, 20, 20);
+  font-size: 2.0rem;
+}
+
+.ctaBtn {
+  display: inline-flex;
+  padding: 10px 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(20, 20, 20);
+  background-color: rgb(20, 20, 20);
+  border-radius: 4px;
+}
+
+.ctaBtnMnu {
+  width: auto;
+  height: auto;
+}
+
+.footerContainer {
+  height: 50px;
+  background-color: rgb(119, 116, 111);
+  border-top: 1px solid rgb(60, 59, 57);
+}
+
+.social_icons {
+  font-size: 1rem;
+  font-size: 1.2rem;
+  padding: .5rem;
+  color: rgb(236, 236, 236);
+  position: relative;
+}
+
+
+
+
+
+
