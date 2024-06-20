@@ -7,11 +7,11 @@ export default function Home() {
     
     <div className={styles.container}>
       <Head>
-        <title>Gabriel Carson</title>
+        <title>Fabian Salts Plumbing</title>
         <link rel="icon" href="/favicon1.ico" />
       </Head>
 
-      <a href="/" className={styles.title}>Gabriel</a>
+      <a href="/" className={styles.title}></a>
 
     </div>
   );
