@@ -1,6 +1,6 @@
 
 .container {
-  min-height: 85vh;
+  min-height: 122vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -56,8 +56,8 @@
   align-items: center;
   padding: 1rem;
   height: 10vh;
-  background-color: #F8F3EA;
-  border-bottom: 1px solid #0B1957;
+  background-color: #1a223d;
+  border-bottom: 1px solid #53555d;
 }
 
 .navContent {
@@ -141,6 +141,7 @@
     height: 50px;
     width: 50px;
     padding-bottom: 6px;
+    
   }
 }
 
@@ -168,16 +169,16 @@
 }
 
 .footerContainer {
-  height: 50px;
-  background-color: #9ECCFA;
-  border-top: 1px solid #0B1957;
+  height: 100px;
+  background-color: #1d2347;
+  border-top: .5px solid #42485f;
 }
 
 .social_icons {
   font-size: 1rem;
   font-size: 1.2rem;
   padding: .5rem;
-  color: rgb(39, 39, 39);
+  color: rgb(202, 202, 202);
   position: relative;
 }
 

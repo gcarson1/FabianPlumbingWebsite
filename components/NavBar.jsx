@@ -39,7 +39,7 @@ const Navbar = () => {
     <nav className={styles.navContainer}>
       <div className={styles.navContent}>
         <div className={styles.menuIcon} onClick={toggleMenu}>
-          <Image className={styles.menuIcon} src='menu-burger-horizontal-svgrepo-com.svg' width={30} height={30} alt="Menu"/>
+        <img align="right" className={styles.menuIcon} src='burger-menu-svgrepo-com.svg' width={80} height={80} alt="Menu"/>
         </div>
         <div className={`${isOpen ? styles.showMenu : ''} ${isOpen ? styles.menuItemsVisible : styles.menuItems}`}>
   
