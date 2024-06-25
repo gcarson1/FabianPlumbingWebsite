@@ -1,12 +1,11 @@
 
 .container {
-  min-height: 122vh;
+  min-height: 2600px;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  filter: blur(5px);
 
 }
 

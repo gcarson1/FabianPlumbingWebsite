@@ -4,14 +4,16 @@
 
 html,
 body {
-  background-color: #5761bb;
-  background-image: url(../public/53._Dark_Blue_Iphone_Wallpaper_9.webp);
+  background-color: #000000;
+  background-image: url(../public/Untitled\ design\ \(1\).png);
   padding: 0;
-  height: 100%;
-  min-height: 100vh;
-  background-position: center;
+  height: auto;
+  min-height: auto;
+  background-position: top;
   background-attachment: scroll;
   background-size: cover;
+  background-repeat: no-repeat;
+  
   margin: 0;
   font-family: "Lucida Console", "Courier New", monospace;
 }
